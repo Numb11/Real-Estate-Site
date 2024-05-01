@@ -1,0 +1,360 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+html{
+  scroll-behavior: smooth;
+}
+
+body{
+  font-family: poppins;
+  margin:0;
+  padding:0;
+  
+}
+
+
+
+
+
+.navbar{
+  width:100%;
+  padding-bottom:20px;
+  background: white;
+  position:relative;
+  display: inline-block;
+}
+
+.navbar ul{
+  margin: 0;
+  padding: 0;
+  list-style-type: none; 
+  overflow: hidden;
+  background-color: rgb(255, 255, 255);
+}
+
+.navbar li{
+  float:right;
+  margin-right:10px ;
+}
+
+.navbar li a{
+  text-decoration:none;
+  display:inline;
+  
+}
+
+.navbar a, .navbar .NavButt, .navbar.navLogo{
+  display:inline;
+  width: 60px;
+}
+
+
+.navbar .navLogo {
+  max-height: 20%;
+  max-width: 20%;
+  float: right;
+  display:inline;
+  padding-top: 4px;
+
+}
+
+.navbar a, .navbar .NavButt{
+  font-weight: normal;
+  color:black;
+  text-decoration:none;
+}
+
+.navbar .NavButt{
+  border:2px solid #000;
+  border-radius: 7px;
+  background-color: #000000;
+  color: white;
+  margin-top:20px;
+  width: 90px;
+  height:22px;
+  font-weight: bold;
+}
+
+.Locations{
+  color:black;
+  padding-right:13px;
+  border:0px;
+  background:white;
+  font-weight:bolder;
+  text-decoration:none;
+  font-size:large;
+}
+
+.DropDown{
+  display: None;
+  margin-top:50px;
+  margin-left:390px;
+  position: absolute;
+  background-color:#9292924b;
+  width: 120px;
+  z-index: 1;
+
+}
+
+.DropDown a {
+  padding: 10px;
+  text-decoration: none;
+  display: block;
+}
+
+.navdrop:hover .DropDown {
+  display: block;
+}
+
+.navdrop:hover .Locations {
+  display:absolute;
+  background:#c0c0c03d
+}
+
+.heroTitle{
+  margin-top:200px;
+  width: 100%;
+  text-align: center;
+  font-size:500%;
+}
+.heroTitle2{
+    margin-bottom:200px;
+    line-height: 35px;
+}
+
+.Overview{
+    display:grid;
+    grid-template-columns: auto auto auto auto;
+
+}
+
+.Interiorvid{ 
+    grid-column:1;
+    width:100%;
+    height:100%;
+    background:#000000;
+    border:2px solid #000;
+
+
+}
+
+.Map{
+    grid-column:2;
+    background:#000000;
+    padding:2px;
+
+}
+
+
+p{
+  text-align: center;
+  font-size: 20px;
+  margin-left:120px;
+  margin-right:120px;
+  white-space:wrap;
+  font-weight: normal;
+
+
+}
+
+
+
+
+
+
+#BenefitTitle{
+  text-align:center;
+  margin-top:5%;
+  letter-spacing: 4px;
+  font-size: 40px;
+  margin-top:10%;
+
+  
+}
+
+.benefiticons{
+  border:7px solid hsl(0, 0%, 91%);
+  background-color:rgb(255, 255, 255);
+  padding-top:20px;
+  padding-bottom:20px;
+  width:45%;
+  border-radius:20px;
+  margin-left:27%;
+  margin-top: 4%;
+  display:flex;
+  align-items:center;
+  text-align: center;
+}
+
+
+
+#Camera{
+  margin-left:7% 
+
+}
+
+#Laundry{
+  margin-left:40px;
+}
+
+#Parking{
+  margin-left:45px;
+
+}
+
+#Bike{
+  margin-left:45px;
+  margin-top:6px;
+}
+#Helicopter{
+  margin-left:40px;
+  margin-top:11px;
+}
+
+.Benefittitles{
+  width: 100%;
+  height: 100%;
+  margin-left:28%;
+  display:flex;
+  text-align: center;
+  margin-bottom: 4%;
+  
+
+
+}
+
+
+.ScrollText{
+  text-align:center;
+  font-size: 35px;
+  letter-spacing: 4px;
+
+}
+
+
+
+.Benefittitles h3{
+  margin-right:50px;
+  display: inline-block;
+  
+
+}
+
+.BenefitSection{
+  padding-bottom: 20px;
+
+
+}
+
+.Facilities {
+  text-align:center;
+
+}
+
+.Facilities h1{
+  padding-top:30px;
+
+}
+
+.Facilities ul,h1{
+  padding-bottom:20px;
+  text-align:center;
+}
+
+.Facilities li{
+  display: inline-block;
+  padding-left:30px;
+  font-size: 15px;
+
+}
+.Facilities img{
+  display:flex-box;
+  padding:5px;
+
+
+}
+
+#BannerTitle, #EBannerTitle{
+  margin-top:160px;
+  line-height: 65px;
+  margin-left:50px;
+  position:absolute;
+  letter-spacing: 4px;
+  font-size:100px;
+  color: white;
+  text-align: left;
+}
+
+
+#Landscape, #ELandscape{
+  margin-top:100px;
+  width:100%;
+  height:1%;
+}
+
+#ELandscape{
+  height: 10%;
+}
+
+.EnquireSection{
+  text-align:center;
+  margin-top:100px;
+  background: #C0C0C0;
+  width:50%;
+  margin-left:25%;
+  padding-bottom: 15px;
+  padding-top:5px;
+  border-radius:10px;
+  line-height: 10px;
+}
+.EnquireSection h1{
+  letter-spacing: 4px;
+
+}
+
+
+.EnquireSection form{
+  background: #838383;
+  border-radius:15px;
+  margin-left:3%;
+
+}
+
+form, input, textarea{
+  width:90%;
+  margin-top:25px;
+  padding:14px;
+  border-radius:5px;
+  border-bottom: black;
+  
+}
+
+#inpenquiry {
+  height:70px;
+}
+
+
+.Contact{
+  background-image: linear-gradient(to bottom ,white, #C0C0C0);
+  margin-top:230px;
+  display:block;
+  padding-top:10px;
+  padding-bottom:10px;
+
+}
+.Contact h2, ul{
+  margin-left:20px;
+  line-height:30px;
+  list-style-type: circle;
+}
+
+.Contact ul{
+  font-weight:normal;
+
+}
+
+.Contact a{
+  text-decoration:bold;
+  color:black;
+  font-weight:bold;
+} 

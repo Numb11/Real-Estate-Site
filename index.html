@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title></title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link rel="icon" href="Logo.png">
+</head>
+
+<body>
+
+  <div class="navbar">
+    <ul>
+      <li><a href = "./index.html"><img class="navLogo" src="Logo.png" alt="Web-Logo"></a></li>
+      <div class = "navdrop">
+      <li><button class = Locations><a  href="#locationtext" id="location"><h3>Locations</h3></button></li>
+      <div class = "DropDown">
+          <a href = "./Kensington.html">Kensington</a>
+          <a href = "./Eaton.html">Eaton</a>
+          <a href = "./Canary.html">Canary Wharf</a>
+          <a href = "./Buckingham.html">Buckingham</a>
+      </div>
+      </div>
+      <li><a class="Entry Requirements" href="#CommunityColumn1" id="sign-up"><h3>Community</h3></a></li>
+      <li><a class="Why" href="#BenefitTitle" id="why"><h3>Why us?</h3></a></li>
+      <li><button class="NavButt" onclick="openform()">Contact us</button></li>
+    </ul>
+  </div>
+
+  <div id = "EnquireSection">
+    <h1>Enquire Today</h1>
+    <h2>Make your next step</h2>
+
+    <form action="">
+
+      <input type = "text" id="inpname" name = "name" placeholder = "Please enter your name">
+
+      <input type = "text" id = "inpemail" name="email" placeholder="Please enter your Email">
+
+      <input type = "text" id = "inpenquiry" name="enquiry" placeholder="Please enter your Enquiry">
+
+      <input id = "submitbutt" type="submit" value="Make Enquiry" onclick="submit()">
+
+</div>
+  <div id = "html">
+    <video  class = "heroVid" width = "100%" height = "100%" muted autoplay loop>
+        <source src="VideoForWeb.mp4" type="video/mp4">
+    </video>
+    
+  <h1 class="heroTitle">Enhance your <br> <b> Life. </b></h1>
+
+
+  <h1 id = "locationtext">Our Locations</h1>
+  <p class = "locationtext2">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium</p>
+
+  <script src="script.js"></script>
+
+
+
+  <br></br>
+  <div id="Locations">
+      <a href= "Kensington.html"> <img id="Kensington" src="Kensington.jpg" alt="Web-Logo" width="150px" height="250x"></a> <!--https://www.skyscrapercenter.com/building/kensington-tower/36304-->
+      <a href= "Eaton.html"><img id="Eaton" src="Eaton.jpg" alt="Web-Logo"  width="150px" height="250x"></a>
+      <a href= "Canary.html"><img id="Canary" src="Canary.jpg" alt="Web-Logo"  width="150px" height="250x"></a> <!--https://www.constructionenquirer.com/2013/07/24/canary-wharf-resi-skyscraper-race-hots-up/-->
+      <a href= "Buckingham.html"><img id="Buckingham" src="Buckingham.jpg" alt="Web-Logo"  width="150px" height="250x"></a> <!--https://traveldigg.com/buckingham-palace-one-of-the-most-magnificent-palaces-in-the-world/-->
+  </div>
+  <div class="Locationtitles">
+    <h3>Kensington</h3>
+    <h3>Eaton</h3>
+    <h3>Canary Wharf</h3>
+    <h3 class ="BuckinghamTitle">Buckingham</h3>
+  </div>
+
+  <p class = "LocationInfo">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Morbi tempus iaculis urna id. Id velit ut tortor pretium viverra suspendisse potenti. Fermentum et sollicitudin ac orci phasellus egestas tellus rutrum. Aliquet porttitor lacus luctus accumsan. Turpis tincidunt id aliquet risus.</p>
+  <div class = "BenefitSection">
+      <h1 id = "BenefitTitle">What we offer </h1>
+      <h2 class = ScrollText> Voted No.1 as the best place to live in Europe</h2>
+
+      <div class = "benefiticons">
+        <img id = "Camera" src="CCTVIcon.png" alt = "CCTV Icon" width="75px" height="75px">
+        <img id = "Laundry" src="LaundryIcon.png" alt = "Laundry Icon" width="75px" height="75px">
+        <img id = "Parking" src="ParkingIcon.png" alt = "Parking Icon" width="75px" height="75px"> 
+        <img id = "Bike" src="Bike.png" alt = "Bike Icon" width="80px" height="70px">  <!--https://th.bing.com/th/id/R.f19127b011b6ed1cf69328b10aa0becc?rik=dCD2DC1UE0L5QQ&riu=http%3a%2f%2fcdn.onlinewebfonts.com%2fsvg%2fimg_538346.png&ehk=qV3eaUxVF%2fhsjvfb7%2bk9ZvxuxxWGGwipQSIYBpw3%2bp4%3d&risl=&pid=ImgRaw&r=0-->
+        <img id = "Helicopter" src = "HellipadIcon.png" width="85px" height="85px"> <!--https://www.flaticon.com/free-icon/helicopter_596576-->
+      </div>
+
+      <div class="Benefittitles">
+        <h3>24/7 <br><b> Security</b></h3>
+        <h3>Laundry <br><b>Service</bb></h3>
+        <h3>Secure<br><b>Parking</b></h3>
+        <h3>Bike<br><b>Storage</b></h3>
+        <h3>Helicopter<br><b>Pickup</b></h3>
+      </div>
+
+      <p>Ipsum suspendisse ultrices gravida dictum fusce ut placerat orci. Aliquam purus sit amet luctus venenatis lectus magna fringilla. Sem fringilla ut morbi tincidunt augue interdum. Velit scelerisque in dictum non consectetur a erat nam at. Quam lacus suspendisse faucibus interdum. Etiam dignissim diam quis enim lobortis scelerisque fermentum. Viverra nibh cras pulvinar mattis nunc. Risus ultricies tristique nulla aliquet enim. Mi proin sed libero enim sed faucibus turpis in eu. Lectus vestibulum mattis ullamcorper velit sed ullamcorper. Adipiscing enim eu turpis egestas pretium aenean. Tristique senectus et netus et malesuada fames ac turpis.
+      Fringilla phasellus faucibus scelerisque eleifend donec pretium vulputate. </p>
+      <div class = "Facilities">
+          <div id = "Collumn1">
+              <h1>Unparalleled Facilities</h1>
+              <ul>
+                <li>En-Suites</li>
+                <li>Jaw dropping views</li>
+                <li>Modern comforts</li>
+                <li>Fully furnished kitchen</li>
+                <li>Three double bedrooms</li>
+                <li>Well connected</li>
+                <li>Strong community</li>
+              </ul>
+              <h2>Why settle for less?</h2>
+          </div>
+          <div id = "Collumn2"> <!--https://www.decorilla.com/online-decorating/modern-apartment-decor-design-ideas/-->
+            <img id = "Interior1" src="Interior1.jpg" alt = "Interior Picture" height="200" > <!--https://www.thekaty.com/the-katy-dallas-texas/?utm_source=localiq&utm_medium=PPC&utm_campaign=localiq&scid=3509906&cid=4458908&tc=4cea19030e4c1edff23e7f2d2e2813bf&rl_key=104148f6720862f7e7bde003122cfda2&kw=695138:5207&pub_cr_id=71605958840503&dynamic_proxy=1&primary_serv=www.thekaty.com&network=o&device=c&targetid=kwd-71606498422404&loc_physical_ms=41470&rl_track_landing_pages=1&rl_retarget=1-->
+            <img id = "Interior2" src="Interior2.jpg" alt = "Interior Picture" height="200" > <!--https://www.bing.com/aclick?ld=e830cVNP8Z76RqIfsEpDz2BDVUCUwbdZW-v-cdu-WfPqWTZxrmOIunmqW2tJ-beL6W6oZLEunal2w8fuJMQ4QCfXoM2Nczju7dIESHGqbFxDFz9dM52JqtQu1EcvziXa2EHJmkL9fg82khjESMAKiKSh0IbL9MYL96IwbArN7NyK7C6KVA&u=aHR0cHMlM2ElMmYlMmY2MDA4LnhnNGtlbi5jb20lMmZ0cmslMmZ2MSUzZnByb2YlM2Q0MjMlMjZjYW1wJTNkNzAxNDklMjZrY3QlM2Rtc24lMjZrY2hpZCUzZDE0NDAwNDgzOCUyNmNyaXRlcmlhaWQlM2Rrd2QtODE5MTM4NjcxNzM1NzYlM2Fsb2MtMTg4JTI2Y2FtcGFpZ25pZCUzZDQyMDQ3NzI3OCUyNmxvY3BoeSUzZDQxNDcwJTI2YWRncm91cGlkJTNkMTMxMDYxODI4NzAzMzgzOCUyNmNpZCUzZDgxOTEzNzI5NzgwOTMzJTI2a2R2JTNkYyUyNmtleHQlM2QlMjZrcGclM2QlMjZrcGlkJTNkJTI2cXVlcnlTdHIlM2RNb2Rlcm4lMjUyMGFuZCUyNTIwQ2hpYyUyNTIwRGVjb3IlMjUyMElkZWFzJTI1MjBmb3IlMjUyMFN0dWRpbyUyNTIwQXBhcnRtZW50cyUyNnVybCUzZGh0dHBzJTNhJTJmJTJmd3d3LmV0c3kuY29tJTJmdWslMmZtYXJrZXQlMmZob21lX2RlY29yX2FjY2VudHMlM2Z1dG1fc291cmNlJTNkYmluZyUyNnV0bV9tZWRpdW0lM2RjcGMlMjZ1dG1fdGVybSUzZGhvbWUlMjUyMGRlY29yJTI1MjBhY2NlbnRzX2IlMjZ1dG1fY2FtcGFpZ24lM2RTZWFyY2hfVUtfTm9uYnJhbmRfQk5HX0VOR19Ib21lX0RlY29yX0FsbCUyNnV0bV9hZyUzZEhvbWUlMjUyQkRlY29yJTI2dXRtX2N1c3RvbTElM2Rfa19jNTYxOGJlZDNmMGExM2I2NDYyNmVkYzMxZjlmY2QxN19rXyUyNnV0bV9jb250ZW50JTNkYmluZ180MjA0NzcyNzhfMTMxMDYxODI4NzAzMzgzOF84MTkxMzcyOTc4MDkzM19rd2QtODE5MTM4NjcxNzM1NzYlM2Fsb2MtMTg4X2NfJTI2dXRtX2N1c3RvbTIlM2Q0MjA0NzcyNzglMjZtc2Nsa2lkJTNkYzU2MThiZWQzZjBhMTNiNjQ2MjZlZGMzMWY5ZmNkMTc&rlid=c5618bed3f0a13b64626edc31f9fcd17-->
+            <img id = "Interior3" src="Interior3.jpg" alt = "Interior Picture" height="200" > <!--https://www.bing.com/aclick?ld=e8GDQTRPthoC06-lf5HYEaxDVUCUziA084rp4BWgFFH7nsUUBJI48VvEVDUEoBFSn1TmccVCPSbFZ1NR7BVw-GCaRgVLrtJ_RmWZi59l4FlSPDC-pN5u-qL_Ox0V5R0lb-h1jBzFZv0rkdkgQpaBeYMI0whLW_Lxa7pUnSpdY6XLffgjJr&u=aHR0cHMlM2ElMmYlMmZ3d3cudGVtdS5jb20lMmZ1bCUyZmt1aXBlciUyZnVuMi5odG1sJTNmX3BfcmZzJTNkMSUyNnN1YmolM2R1bi1zZWFyY2gtd2ViJTI2X3BfanVtcF9pZCUzZDk2MCUyNl94X3ZzdF9zY2VuZSUzZGFkZyUyNmxvY2FsZV9vdmVycmlkZSUzZDIxMCU3ZSU3ZUdCUCUyNnNlYXJjaF9rZXklM2RiZXN0JTI1MjBraXRjaGVuJTI1MjBsaWdodGluZyUyNl9wX3JmcyUzZDElMjZfeF9hZHNfY2hhbm5lbCUzZGJpbmclMjZfeF9hZHNfc3ViX2NoYW5uZWwlM2RzZWFyY2glMjZfeF9hZHNfYWNjb3VudCUzZDE3NjI4MzAyNSUyNl94X2Fkc19zZXQlM2Q1MjA2MzE0OTclMjZfeF9hZHNfaWQlM2QxMzIyNzE0ODU4NTc3Njg5JTI2X3hfYWRzX2NyZWF0aXZlX2lkJTNkODI2Njk5MDY2MTY2MDglMjZfeF9uc19zb3VyY2UlM2RvJTI2X3hfbnNfbXNjbGtpZCUzZDcxZDFkNDVlODczZTFjMGNmZjNlYjI3MGE3ZjRkYTJlJTI2X3hfbnNfbWF0Y2hfdHlwZSUzZGUlMjZfeF9uc19iaWRfbWF0Y2hfdHlwZSUzZGJiJTI2X3hfbnNfcXVlcnklM2Rtb2Rlcm4lMjUyMGtpdGNoZW4lMjUyMGxpZ2h0aW5nJTI1MjBpZGVhcyUyNl94X25zX2tleXdvcmQlM2RiZXN0JTI1MjBraXRjaGVuJTI1MjBsaWdodGluZyUyNl94X25zX2RldmljZSUzZGMlMjZfeF9uc190YXJnZXRpZCUzZGt3ZC04MjY3MDcxNTY1Mzc0NCUzYWxvYy0xMzM2MTUlMjZfeF9uc19leHRlbnNpb25pZCUzZCUyNm1zY2xraWQlM2Q3MWQxZDQ1ZTg3M2UxYzBjZmYzZWIyNzBhN2Y0ZGEyZSUyNnV0bV9zb3VyY2UlM2RiaW5nJTI2dXRtX21lZGl1bSUzZGNwYyUyNnV0bV9jYW1wYWlnbiUzZDA0MTZfU0VBUkNIXzczMTM5NTgwNTU4MTMxMzQzNjglMjZ1dG1fdGVybSUzZGJlc3QlMjUyMGtpdGNoZW4lMjUyMGxpZ2h0aW5nJTI2dXRtX2NvbnRlbnQlM2QwNDE2X1NFQVJDSF8yMzA0MDk4NTY4MDc1NjA0NDA&rlid=71d1d45e873e1c0cff3eb270a7f4da2e-->
+            <img id = "Interior4" src="Interior4.jpg" alt = "Interior Picture" height="200" > <!--https://onekindesign.com/2017/07/25/minimalist-penthouse-apartment/-->
+            <img id = "Interior6" src="Interior6.jpg" alt = "Interior Picture" height="200" > <!--https://br.pinterest.com/pin/34691859615669427/-->
+            <img id = "Interior5" src="Interior5.jpg" alt = "Interior Picture"  height="200" > <!--https://sg.asiatatler.com/life/home-tour-dwell-interior-design-contemporary-apartment-designed-for-entertaining-->
+
+            <img id = "Interior8" src="Interior8.jpg" alt = "Interior Picture" height="200"  > <!--https://www.brickunderground.com/buy/crib-sheet-open-houses-condos-pools-->
+          </div>
+      </div>
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+    
+  <div class = "Communitysection">
+    <div id = "CommunityColumn1">
+      <h1>Community</h1>
+      <h2>Meet the next step</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tincidunt vitae semper quis lectus nulla at volutpat diam. Velit euismod in pellentesque massa placerat. Tellus orci ac auctor augue mauris. Vestibulum mattis ullamcorper velit sed ullamcorper morbi. Interdum varius sit amet mattis. Magna sit amet purus gravida. Massa placerat duis ultricies lacus. Feugiat in ante metus dictum at. Donec pretium vulputate sapien nec sagittis aliquam.</p>
+    </div>
+
+    <div id = "CommunityColumn2">
+      <!--https://www.istockphoto.com/search/search-by-asset?affiliateredirect=true&assetid=1382390344&assettype=image&utm_campaign=SRP_image_sponsored&utm_content=https%3A%2F%2Fpixabay.com%2Fimages%2Fsearch%2Ffriends%2520community%2F&utm_medium=affiliate&utm_source=pixabay&utm_term=friends+community-->
+      <img id = "Community1" src="Community1.jpg" alt = "Community Picture"  height="200" >
+      <img id = "Community2" src="Community2.jpg" alt = "Community Picture"  height="200" >
+      <img id = "Community3" src="Community3.jpg" alt = "Community Picture"  height="200" >
+      <img id = "Community4" src="Community4.jpg" alt = "Community Picture"  height="200" >
+      <img id = "Community5" src="Community5.jpg" alt = "Community Picture"  height="200" >
+      <img id = "Community6" src="Community6.jpg" alt = "Community Picture"  height="200" >
+
+    </div>
+
+  </div>
+
+  
+
+  <div class = "Contact">
+    <h2>Contact Us</h2>
+    <ul>
+      <li>  Main Office : <bold>+44 7893 929 403</bold></li>
+      <li>  Customer Care : <bold>+44 7803 329 456</bold></li>
+      <li>  Enquiries : <bold>+44 8923 920 493</bold></li>
+      <li> Facebook : <a href = https://en-gb.facebook.com> @NestHomes </a> </li>
+      <li> Instagram : <a href = https://www.instagram.com>  #NestLiving </a> </li>
+    </ul>
+  </body>
+</div>
+</html>
