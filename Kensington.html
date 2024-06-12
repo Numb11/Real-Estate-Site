@@ -5,29 +5,32 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
   <title></title>
-  <link href="kensingtonstyle.css" rel="stylesheet" type="text/css" />
+  <link href="locationstyle.css" rel="stylesheet" type="text/css" />
   <link rel="icon" href="Logo.png">
 </head>
 
 <body>
+  <script src="script.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2.4.0/dist/email.min.js"></script>
   <div class="navbar">
     <ul>
-      <li><a href = "./index.html"><img class="navLogo" src="Logo.png" alt="Web-Logo"></a></li>
+      <li><a class="Entry Requirements" href="./index.html#CommunityColumn1" id="sign-up"><h3>Community</h3></a></li>
+      <li><a class="Why" href="./index.html#BenefitTitle" id="why"><h3>Why us?</h3></a></li>
+      <li><a class="contact" href="#inpname"><h3>Contact us</h3></a></li>
       <div class = "navdrop">
-      <li><button class = Locations><a  href="./index.html#locationtext" id="location"><h3>Locations</h3></button></li>
-      <div class = "DropDown">
+        <li><button class = Locations><a  href="./index.html#locationtext" id="location"><h3>Locations</h3></button></li>
+        <div class = "DropDown">
           <a href = "./Kensington.html">Kensington</a>
           <a href = "./Eaton.html">Eaton</a>
           <a href = "./Canary.html">Canary Wharf</a>
           <a href = "./Buckingham.html">Buckingham</a>
+          <a href = "./Manchester.html">Manchester</a>
+        </div>
       </div>
-      </div>
-      <li><a class="Entry Requirements" href="./index.html#CommunityColumn1" id="sign-up"><h3>Community</h3></a></li>
-      <li><a class="Why" href="./index.html#BenefitTitle" id="why"><h3>Why us?</h3></a></li>
-      <li><a class="contact" href="#inpname"><h3>Contact us</h3></a></li>
+      <a href = "./index.html"><img class="navLogo" src="Logo.png" alt="Web-Logo"></a>
     </ul>
   </div>
-
+<br></br>
 <h1 class="heroTitle">Kensington</h1>
 <p class = "heroTitle2"> £7000 - £11500 Per Month <br>3312 Square Foot</br></p>
 <div class = "Overview">
@@ -40,30 +43,41 @@
 
   
 
-<h1 id="BenefitTitle"> Everything you need</h1>
 
 
-  <div class = "BenefitSection">
 
-      <div class = "benefiticons">
+<div class = "BenefitSection">
+  <h1 id = "BenefitTitle">What we offer </h1>
+  <h2 class = ScrollText> Voted No.1 as the best place to live in Europe</h2>
+
+  <div class = "benefiticons">
+    <figure>
         <img id = "Camera" src="CCTVIcon.png" alt = "CCTV Icon" width="75px" height="75px">
+        <figcaption>24/7 <br>Security</figcaption>
+    </figure>
+    <figure>
         <img id = "Laundry" src="LaundryIcon.png" alt = "Laundry Icon" width="75px" height="75px">
+        <figcaption>Laundry<br>Service</figcaption>
+    </figure>
+    <figure>
         <img id = "Parking" src="ParkingIcon.png" alt = "Parking Icon" width="75px" height="75px"> 
+        <figcaption>Secure<br>Parking</figcaption>
+    </figure>
+    <figure>
         <img id = "Bike" src="Bike.png" alt = "Bike Icon" width="80px" height="70px">  <!--https://th.bing.com/th/id/R.f19127b011b6ed1cf69328b10aa0becc?rik=dCD2DC1UE0L5QQ&riu=http%3a%2f%2fcdn.onlinewebfonts.com%2fsvg%2fimg_538346.png&ehk=qV3eaUxVF%2fhsjvfb7%2bk9ZvxuxxWGGwipQSIYBpw3%2bp4%3d&risl=&pid=ImgRaw&r=0-->
+        <figcaption>Bike<br>Storage</figcaption>
+    </figure>
+    <figure>
         <img id = "Helicopter" src = "HellipadIcon.png" width="85px" height="85px"> <!--https://www.flaticon.com/free-icon/helicopter_596576-->
-      </div>
+        <figcaption>Helicopter<br>Pickup</figcaption>
+    </figure>
+  </div>
 
-      <div class="Benefittitles">
-        <h3>24/7 <br><b> Security</b></h3>
-        <h3>Laundry <br><b>Service</bb></h3>
-        <h3>Secure<br><b>Parking</b></h3>
-        <h3>Bike<br><b>Storage</b></h3>
-        <h3>Helicopter<br><b>Pickup</b></h3>
-      </div>
-
-      <p>Ipsum suspendisse ultrices gravida dictum fusce ut placerat orci. Aliquam purus sit amet luctus venenatis lectus magna fringilla. Sem fringilla ut morbi tincidunt augue interdum. Velit scelerisque in dictum non consectetur a erat nam at. Quam lacus suspendisse faucibus interdum. Etiam dignissim diam quis enim lobortis scelerisque fermentum. Viverra nibh cras pulvinar mattis nunc. Risus ultricies tristique nulla aliquet enim. Mi proin sed libero enim sed faucibus turpis in eu. Lectus vestibulum mattis ullamcorper velit sed ullamcorper. Adipiscing enim eu turpis egestas pretium aenean. Tristique senectus et netus et malesuada fames ac turpis.
-      Fringilla phasellus faucibus scelerisque eleifend donec pretium vulputate. </p>
-      <div class = "Facilities">
+  <p>Ipsum suspendisse ultrices gravida dictum fusce ut placerat orci. Aliquam purus sit amet luctus venenatis lectus magna fringilla. Sem fringilla ut morbi tincidunt augue interdum. Velit scelerisque in dictum non consectetur a erat nam at. Quam lacus suspendisse faucibus interdum. Etiam dignissim diam quis enim lobortis scelerisque fermentum. Viverra nibh cras pulvinar mattis nunc. Risus ultricies tristique nulla aliquet enim. Mi proin sed libero enim sed faucibus turpis in eu. Lectus vestibulum mattis ullamcorper velit sed ullamcorper. Adipiscing enim eu turpis egestas pretium aenean. Tristique senectus et netus et malesuada fames ac turpis.
+  Fringilla phasellus faucibus scelerisque eleifend donec pretium vulputate. </p>
+  <br>
+      
+  <div class = "Facilities">
           
               <h1>What's Included</h1>
               <ul>
@@ -108,7 +122,7 @@
       <h1>Enquire Today</h1>
       <h2>Make your next step</h2>
     
-      <form action="">
+      <form action="" id = "enquire">
     
         <input type = "text" id="inpname" name = "name" placeholder = "Please enter your name">
     
@@ -116,7 +130,7 @@
     
         <input type = "text" id = "inpenquiry" name="enquiry" placeholder="Please enter your Enquiry">
     
-        <input id = "submitbutt" type="submit" value="Make Enquiry">
+        <button id = "submitbutt" onclick= "submitform()" >Make Enquiry </button>
     </div>
 
   

@@ -1,10 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+html{
+  overflow-x: hidden;
 
+}
 #html{
   scroll-behavior: smooth;
   opacity:1;
-
   
 }
 
@@ -15,52 +17,44 @@ body{
 }
 
 
-
-
-
 .navbar{
-  width:100%;
-  padding-bottom:20px;
+  display:inline;
+}
+
+
+.navbar, .navbar .navdrop{
   background: white;
-  position:relative;
-  display: inline-block;
+  display: inline;
 }
 
 .navbar ul{
   margin: 0;
   padding: 0;
   list-style-type: none; 
-  overflow: hidden;
   background-color: rgb(255, 255, 255);
+  width: 100%;
 }
 
 .navbar li{
-  float:right;
-  margin-right:10px ;
+  float:left;
+  margin-right:2vw;
 }
 
 .navbar li a{
   text-decoration:none;
-  display:inline;
   
-}
-
-.navbar a, .navbar .NavButt, .navbar.navLogo{
-  display:inline;
-  width: 60px;
 }
 
 
 .navbar .navLogo {
-  max-height: 20%;
-  max-width: 20%;
-  float: right;
-  display:inline;
-  padding-top: 4px;
-
+  max-height: 10%;
+  max-width: 10%;
+  padding:5px;
+  margin-right:10px;
+  float: right; 
 }
 
-.navbar a, .navbar .NavButt{
+.navbar a, .navbar .NavButt .Locations{
   font-weight: normal;
   color:black;
   text-decoration:none;
@@ -69,31 +63,32 @@ body{
 .navbar .NavButt{
   border:2px solid #000;
   border-radius: 7px;
-  background-color: #000000;
+  background-color: #000;
   color: white;
-  margin-top:20px;
+  margin-top:26%;
+  max-height: 22px;
+  max-width: 90px;
   width: 90px;
   height:22px;
   font-weight: bold;
 }
 
 .Locations{
-  color:black;
-  padding-right:13px;
   border:0px;
+  width: 90px;
+  font-size:18px;
+  height:22px;
   background:white;
-  font-weight:bolder;
   text-decoration:none;
-  font-size:large;
 }
 
 .DropDown{
-  display: None;
+  display: none;
   margin-top:50px;
-  margin-left:390px;
+  margin-left:26%;
   position: absolute;
-  background-color:#9292924b;
-  width: 120px;
+  background-color:#ffffff;
+  width: 8%;
   z-index: 1;
 
 }
@@ -102,6 +97,9 @@ body{
   padding: 10px;
   text-decoration: none;
   display: block;
+}
+.DropDown a:hover {
+  scale:1.2;
 }
 
 .navdrop:hover .DropDown {
@@ -113,70 +111,44 @@ body{
   background:#c0c0c03d
 }
 
-.heroTitle{
+#hero h1{
   position: absolute;
-  top: 40%;
+  top: 25%;
   width: 100%;
   text-align: left;
-  padding-left: 50px;
-  font-size:500%;
+  padding-left: 10%;
+  font-size: 9vw;
   color: white;
+
 }
-.heroVid{
+#hero video{
     width: 100%;
+    height:100%;
 
 }
+#LocationSection{
+  width:100%;
+  text-align:center;
 
+}
 #locationtext{
   text-align: center;
   letter-spacing: 4px;
-  font-size: 55px;
+  font-size: 210%;
 }
 
 .locationtext2{
-  text-align: center;
   font-size: 20px;
 
 }
 
-
-#Locations{
-    margin-left:26%;
-    display:flex;
-    align-items:center;
-    text-align: center;
-}
-
-#Kensington{
+#Locations img{
   width:150px;
-  margin-right: 20px;
   border:2px solid #000;
 }
 
-#Eaton{
-  width:150px;
-  margin-right: 20px;
-  border:2px solid #000;
-}
-#Buckingham{
-  width:150px;
-  margin-right: 20px;
-  border:2px solid #000;
-}
-
-#Canary{
-  width:150px;
-  margin-right: 20px;
-  border:2px solid #000;
-}
-
-.Locationtitles{
-  height:50%;
-  width:60%;
-  margin-left:405px;
-  display:flex;
-  align-items:center;
-  text-align: center;
+#Locations figure{
+  display:inline-block;
 
 }
 
@@ -187,7 +159,7 @@ body{
 
 .Locationtitles .BuckinghamTitle {
   margin-left:-25px;
-  margin-right: 3px;
+  margin-right: 50px;
 }
 p{
   text-align: center;
@@ -214,11 +186,18 @@ p{
   text-align:center;
   margin-top:5%;
   letter-spacing: 4px;
-  font-size: 40px;
+  font-size: 4vw;
   margin-top:10%;
   color:white;
   background-color:black;
   
+}
+
+
+
+.benefiticons figure{
+  display:inline-block;
+  text-align: center;
 }
 
 .benefiticons{
@@ -226,76 +205,29 @@ p{
   background-color:rgb(255, 255, 255);
   padding-top:20px;
   padding-bottom:20px;
-  width:45%;
+  width:60%;
+  margin:auto;
   border-radius:20px;
-  margin-left:27%;
-  margin-top: 4%;
-  display:flex;
   align-items:center;
   text-align: center;
+  margin-bottom: 60px;
 }
-
-
-
-#Camera{
-  margin-left:7% 
-
-}
-
-#Laundry{
-  margin-left:40px;
-}
-
-#Parking{
-  margin-left:45px;
-
-}
-
-#Bike{
-  margin-left:45px;
-  margin-top:6px;
-}
-#Helicopter{
-  margin-left:40px;
-  margin-top:11px;
-}
-
-.Benefittitles{
-  width: 100%;
-  height: 100%;
-  margin-left:28%;
-  display:flex;
-  text-align: center;
-  margin-bottom: 4%;
-  
-
-
-}
-
 
 .ScrollText{
   text-align:center;
-  font-size: 35px;
+  font-size: 3.3vw;
   letter-spacing: 4px;
 
 }
 
-.ScrollText:hover9{
-  transform: scale(1.2);
+.ScrollText:hover{
+  transform: scale(1.1);
 
 }
 
-.Benefittitles h3{
-  margin-right:50px;
-  display: inline-block;
-  
-
-}
 
 .BenefitSection{
-  padding-bottom: 20px;
-
-
+  margin-bottom: 20px;
 }
 
 
@@ -309,10 +241,12 @@ p{
 }
 #Collumn1{
   grid-column: 1;
+  width:305px;
+  margin-left:30%;
 }
 
 #Collumn1 ul , #Collumn1 h1, #Collumn1 h2{
-  margin-left:100px;
+  padding-left:10px;
 
 }
 
@@ -335,13 +269,14 @@ p{
 #Collumn2{
   grid-column:2;
   margin-top:105px;
-  margin-right:100px;
+  float:right;
+  height:620px;
+  width:700px;
+  overflow: hidden;
 }
 #Collumn2 img{
-  max-width:25%;
-  display:block;
-  float:right;
   border:3px solid #000;
+  float:right;
 }
 
 #Collumn2 img:hover{
@@ -351,17 +286,21 @@ p{
 
 
 .Communitysection{
-  margin-top:6-px;
-
+  margin-top:60px;
+  margin-left:8%;
 }
 
 #CommunityColumn1{
   grid-column: 1;
-  margin-left:100px;
+  width:87%;
+  padding-left: 25px;
   margin-top:60px;
   text-align: left;
   background:rgb(203, 203, 203);
   border-radius:10px;
+  position:relative;
+  height:90%;
+  padding-right: 25px;
   
 }
 #CommunityColumn1 p{
@@ -369,6 +308,7 @@ p{
   margin-top:40px;
   padding-bottom:20px;
   text-align:left;
+  font-size:1.5vw;
   
 }
 
@@ -386,13 +326,15 @@ p{
 
 #CommunityColumn2{
   grid-column: 2;
+  padding-bottom:20px;
   margin-top:90px;
   padding-top:20px;
   background-color: #000;
-  margin-right:100px;
+  margin-right:40px;
   border-radius:10px;
   margin-bottom:-90px;
-  margin-left:-40px;
+  margin-left:-50px;
+  height:93%;
 }
 #CommunityColumn2 img{
   margin-left:25px;
@@ -431,7 +373,7 @@ p{
 
 }
 
-form, input, textarea{
+form, input, textarea, #submitbutt{
   width:90%;
   margin-top:25px;
   padding:14px;
@@ -468,3 +410,53 @@ form, input, textarea{
   color:black;
   font-weight:bold;
 } 
+
+@media only screen and (max-width:651px){
+  .navbar .navLogo {
+    display:none;
+  }
+  .navbar{
+    display:inline-block;
+    width:20%;
+    text-align:center;
+    font-size:10px;
+  
+  }
+
+  .Locations{
+    font-size:10px;
+    margin-left:0px;
+    border:0px;
+    width: 0px;
+    font-size:10px;
+    height:0px;
+    background:white;
+    text-decoration:none;
+  }
+  .navbar .NavButt{
+    font-size:10px;
+    margin:0px;
+    width:17vw;
+    padding-bottom: 20px;
+  }
+
+  .navdrop:hover .DropDown {
+    display: none;
+  }
+
+  .navdrop:hover .Locations {
+    display:absolute;
+    background:none;
+  }
+
+  #hero h1{
+    position: absolute;
+    top:60%;
+    width: 50%;
+    text-align: left;
+}
+
+  #CommunityColumn2{
+    display:none;
+  }
+}

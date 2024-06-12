@@ -1,0 +1,379 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+html{
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+body{
+  font-family: poppins;
+  margin:0;
+  padding:0;
+  
+}
+
+
+
+
+
+.navbar{
+  display:inline;
+}
+
+
+.navbar, .navbar .navdrop{
+  background: white;
+  display: inline;
+}
+
+.navbar ul{
+  margin: 0;
+  padding: 0;
+  list-style-type: none; 
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+}
+
+.navbar li{
+  float:left;
+  margin-right:2vw;
+}
+
+.navbar li a{
+  text-decoration:none;
+  
+}
+
+
+.navbar .navLogo {
+  max-height: 10%;
+  max-width: 10%;
+  padding:5px;
+  margin-right:10px;
+  float: right; 
+}
+
+.navbar a, .navbar .NavButt .Locations{
+  font-weight: normal;
+  color:black;
+  text-decoration:none;
+}
+
+.navbar .NavButt{
+  border:2px solid #000;
+  border-radius: 7px;
+  background-color: #000;
+  color: white;
+  margin-top:26%;
+  max-height: 22px;
+  max-width: 90px;
+  width: 90px;
+  height:22px;
+  font-weight: bold;
+}
+
+.Locations{
+  border:0px;
+  width: 90px;
+  font-size:18px;
+  height:22px;
+  background:white;
+  text-decoration:none;
+}
+
+.DropDown{
+  display: None;
+  margin-top:50px;
+  margin-left:20%;
+  position: absolute;
+  background-color:#ffffff;
+  width: 8%;
+  z-index: 1;
+
+}
+
+.DropDown a {
+  padding: 10px;
+  text-decoration: none;
+  display: block;
+}
+
+.navdrop:hover .DropDown {
+  display: block;
+}
+
+.navdrop:hover .Locations {
+  display:absolute;
+  background:#c0c0c03d
+}
+
+
+.heroTitle{
+  font-size: 9vw;
+  margin-top:17%;
+  text-align: center;
+}
+
+.heroTitle2{
+    margin-bottom:20%;
+    font-size: 2vw;
+    line-height: 35px;
+    text-align:center;
+}
+
+.Overview{
+    display:grid;
+    grid-template-columns: auto auto auto auto;
+
+}
+
+.Interiorvid{ 
+    grid-column:1;
+    width:100%;
+    height:100%;
+    background:#000000;
+    border:2px solid #000;
+
+
+}
+
+.Map{
+    grid-column:2;
+    background:#000000;
+    padding:2px;
+
+}
+
+
+p{
+  text-align: center;
+  font-size: 20px;
+  margin-left:120px;
+  margin-right:120px;
+  white-space:wrap;
+  font-weight: normal;
+
+
+}
+
+
+
+
+
+#BenefitTitle{
+  text-align:center;
+  margin-top:5%;
+  letter-spacing: 4px;
+  font-size: 4vw;
+  margin-top:10%;
+  
+}
+
+
+
+.benefiticons figure{
+  display:inline-block;
+  text-align: center;
+}
+
+.benefiticons{
+  border:7px solid hsl(0, 0%, 91%);
+  background-color:rgb(255, 255, 255);
+  padding-top:20px;
+  padding-bottom:20px;
+  width:60%;
+  margin:auto;
+  border-radius:20px;
+  align-items:center;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.ScrollText{
+  text-align:center;
+  font-size: 3.3vw;
+  letter-spacing: 4px;
+
+}
+
+.ScrollText:hover{
+  transform: scale(1.1);
+
+}
+
+.BenefitSection{
+  padding-bottom: 20px;
+
+
+}
+
+.Facilities {
+  text-align:center;
+
+}
+
+.Facilities h1{
+  padding-top:30px;
+
+}
+
+.Facilities ul,h1{
+  padding-bottom:20px;
+  text-align:center;
+}
+.Facilities ul{
+  word-spacing:10px;
+}
+
+
+.Facilities li{
+  display: inline-block;
+  font-size: 15px;
+
+}
+
+.Facilities img{
+  display:flex-box;
+  padding:5px;
+
+
+}
+
+#BannerTitle, #EBannerTitle{
+  margin-top:160px;
+  line-height: 60%;
+  margin-left:50px;
+  position:absolute;
+  letter-spacing: 4px;
+  font-size:9vw;
+  color: white;
+  text-align: left;
+}
+
+
+#Landscape, #ELandscape{
+  margin-top:100px;
+  width:100%;
+  height:1%;
+}
+
+#ELandscape{
+  height: 10%;
+}
+
+.EnquireSection{
+  text-align:center;
+  margin-top:10%;
+  
+  width:45%;
+  border-radius:14px;
+  margin-left:25%;
+}
+.EnquireSection h1{
+  letter-spacing: 4px;
+
+}
+
+
+
+form, input, textarea, #submitbutt{
+  width:100%;
+  font-size:23px;
+  margin-bottom:10%;
+  text-align:center;
+  margin-top:25px;
+  border-top:0px;
+  border-left:0px;
+  border-right:0px;
+  border-bottom-width:3px;
+  border-color: #000;
+  
+}
+#submitbutt{
+  background-color: #C0C0C0;
+  border-radius:10px;
+  padding:4px;
+  border:2px;
+
+
+
+}
+
+#inpenquiry {
+  height: 100%;
+}
+
+
+.Contact{
+  background-image: linear-gradient(to bottom ,#ffffff, #C0C0C0);
+  margin-top:15%;
+  display:block;
+  padding-top:10px;
+  padding-bottom:10px;
+
+}
+.Contact h2, ul{
+  margin-left:20px;
+  line-height:30px;
+  list-style-type: circle;
+}
+
+.Contact ul{
+  font-weight:normal;
+
+}
+
+.Contact a{
+  text-decoration:bold;
+  color:black;
+  font-weight:bold;
+} 
+
+
+
+@media only screen and (max-width:651px){
+  .navbar .navLogo {
+    display:none;
+  }
+  .navbar{
+    display:inline-block;
+    width:20%;
+    text-align:center;
+    font-size:10px;
+  
+  }
+
+  .Locations{
+    font-size:10px;
+    margin-left:0px;
+    border:0px;
+    width: 0px;
+    font-size:10px;
+    height:0px;
+    background:white;
+    text-decoration:none;
+  }
+  .navbar .NavButt{
+    font-size:10px;
+    margin:0px;
+    width:17vw;
+    padding-bottom: 20px;
+  }
+
+  .navdrop:hover .DropDown {
+    display: none;
+  }
+
+  .navdrop:hover .Locations {
+    display:absolute;
+    background:none;
+  }
+
+  #hero h1{
+    position: absolute;
+    top:60%;
+    width: 50%;
+    text-align: left;
+}
+}
